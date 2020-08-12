@@ -1,11 +1,14 @@
 import * as React from 'react';
 import {Provider as PaperProvider} from 'react-native-paper';
 import Routes from './Routes';
+import { AuthProvider } from './AuthProvider';
 
 export default function Index() {
     return(
         <PaperProvider>
-            < Routes />
+            <AuthProvider>
+                < Routes />
+            </AuthProvider>
         </PaperProvider>
     )
 }
