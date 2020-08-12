@@ -1,2 +1,0 @@
-# MesssageAppWithEmailAuth
-React-native App
