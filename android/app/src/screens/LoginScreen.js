@@ -7,7 +7,8 @@ import {AuthContext} from '../navigation/AuthProvider';
 
 export default function LoginScreen({navigation}) {
 
-    const {login} = useContext(AuthContext);    
+    const { login } = useContext(AuthContext);    
+    
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 

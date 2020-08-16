@@ -10,5 +10,5 @@ export default function Index() {
                 < Routes />
             </AuthProvider>
         </PaperProvider>
-    )
+    );
 }
